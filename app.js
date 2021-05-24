@@ -29,7 +29,7 @@ function addTodo(event) {
 
 	// CHeck mark button
 	const completedButton=document.createElement("button");
-	completedButton.innerHTML="add";
+	completedButton.innerHTML="check";
 	completedButton.classList.add("complete-btn");
 	todoDiv.appendChild(completedButton);
 	// CHeck trash button
